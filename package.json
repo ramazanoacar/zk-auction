@@ -1,0 +1,13 @@
+{
+    "name": "zk-auction-app",
+    "version": "1.0.0",
+    "description": "Zero-Knowledge Auction App using o1js and Mina Protocol",
+    "main": "index.js",
+    "scripts": {
+      "deploy": "node scripts/deploy.js",
+      "start": "cd frontend && npm start",
+      "build": "cd contracts && npm run build && cd ../frontend && npm run build"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+} //TODO

@@ -1,0 +1,13 @@
+{
+  "name": "zk-auction-contracts",
+  "version": "1.0.0",
+  "description": "Mina zkApp Smart Contracts for Auction Platform",
+  "main": "AuctionContract.js",
+  "scripts": {
+    "build": "o1js build",
+    "deploy": "node ../scripts/deploy.js"
+  },
+  "dependencies": {
+    "o1js": "^1.8.0"
+  }
+}
